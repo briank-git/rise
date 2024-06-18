@@ -31,6 +31,18 @@
       "selector": ".jp-Notebook:focus.jp-mod-commandMode:not(.slides)"
     },
     {
+      "command": "notebook:move-cursor-heading-above-or-collapse",
+      "keys": ["ArrowLeft"],
+      "selector": ".jp-Notebook:focus.jp-mod-commandMode",
+      "disabled": true
+    },
+    {
+      "command": "notebook:move-cursor-heading-below-or-expand",
+      "keys": ["ArrowRight"],
+      "selector": ".jp-Notebook:focus.jp-mod-commandMode",
+      "disabled": true
+    },
+    {
       "command": "RISE:preview",
       "keys": ["Alt R"],
       "selector": ".jp-Notebook:focus"
